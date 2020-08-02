@@ -1,0 +1,29 @@
+.calendar {
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+.calendar .calendar-dates-section {
+  border-top: 1px solid rgb(67 138 94 / 0.5);
+}
+.calendar .dates-label-section .day,
+.calendar .calendar-dates-section .days-label-section .day {
+  float: left;
+  width: 14%;
+  margin: 0%;
+  height: 150px;
+  font-size: 13pt;
+  border: solid 1px #438a5e;
+}
+.calendar .calendar-dates-section .days-label-section .day.label {
+  height: 40px;
+  background-color: white;
+  color: black;
+  border: none;
+  font-weight: bold;
+}
+.calendar .dates-label-section .day.blank {
+  background-color: white;
+  border: none;
+  height: auto;
+}

@@ -1,0 +1,32 @@
+.legend {
+  padding: 4px;
+  font-weight: 700;
+  font-size: 13px;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-radius: 10px;
+}
+.vacation-legend {
+  background-color: #eebb4d;
+}
+
+.sickness-legend {
+  background-color: #6a197d;
+}
+.vacation-link {
+  color: #000 !important;
+  text-decoration: none !important;
+}
+.sickness-link {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+.leave-legend {
+  background-color: #dddddd;
+}
+.leave-link {
+  color: #000000 !important;
+  text-decoration: none !important;
+}

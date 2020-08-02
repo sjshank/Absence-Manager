@@ -1,0 +1,8 @@
+.day:hover .fa-chevron-circle-down {
+  cursor: pointer;
+  font-size: 24px;
+  transition: font-size 0.4s ease;
+}
+.fa-chevron-circle-down {
+  color: #438a5e;
+}

@@ -1,0 +1,67 @@
+.calendar-btn {
+  float: left;
+  background-color: #438a5e;
+  color: black !important;
+  text-align: center;
+  font-size: 14pt;
+  font-weight: 700;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  width: 25%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.calendar-btn:focus,
+.calendar-btn:visited .calendar-btn:active {
+  outline: 0;
+}
+.calendar-btn .dropdown {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  color: #438a5e;
+  text-align: center;
+  font-size: 14pt;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 160px;
+  left: 0px;
+  z-index: 2000;
+}
+.calendar-btn .months {
+  width: 100%;
+  height: 200px;
+  overflow-y: auto;
+  border: 1px solid #438a5e !important;
+}
+.calendar-btn.year-btn {
+  float: right;
+}
+.calendar-btn .years {
+  display: none;
+  height: 200px;
+  width: 100%;
+  overflow-y: scroll;
+  border: 1px solid #438a5e !important;
+}
+.dropdown .dropdown-item {
+  padding: 0.15rem;
+  padding-left: 1rem;
+  color: black !important;
+}
+.dropdown .dropdown-item:hover {
+  background-color: transparent !important;
+}
+.dropdown .dropdown-item p:hover {
+  background-color: rgb(67 138 94 / 0.5);
+  border-radius: 20px;
+}
+.dropdown-item.selected p {
+  background-color: #438a5e;
+  border: 1px solid #438a5e;
+  border-radius: 20px;
+}
+.dropdown-container {
+  margin: 0;
+}

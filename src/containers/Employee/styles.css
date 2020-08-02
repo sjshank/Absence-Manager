@@ -1,0 +1,17 @@
+.employee-record .employee-table td,
+.employee-record .employee-table th {
+  border: 1px solid #000000;
+}
+.employee-record .employee-table thead tr th {
+  background-color: #438a5e;
+  border: 1px solid #000000;
+}
+.employee-record .employee-table.table-hover tbody tr:hover {
+  background-color: rgb(67 138 94 / 0.2);
+}
+.employee-table td .fa-thumbs-up.status-icon {
+  color: #438a5e;
+}
+.employee-table td .fa-thumbs-down.status-icon {
+  color: #dd2c00;
+}

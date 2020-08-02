@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Mirza:wght@700&family=Vast+Shadow&display=swap");
+
+header,
+article,
+main,
+section {
+  display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+  margin-top: 0;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.25rem;
+}
+h6 {
+  font-size: 1rem;
+}
+ul {
+  list-style: none;
+}
+
+.app {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.app select.app-select-input,
+.app select.app-select-input:focus,
+.app select.app-select-input:visited {
+  border: 1px solid #438a5e !important;
+  outline: 0;
+  padding: 4px;
+  border-radius: 5px;
+}
+.app .app-btn,
+.app .app-btn:focus,
+.app .app-btn:active,
+.app .app-btn:visited {
+  background-color: #438a5e !important;
+  border: 1px solid #438a5e !important;
+  outline: 0 !important;
+  color: #000 !important;
+  font-weight: 700;
+  box-shadow: 0 0 0 0.2rem #438a5e !important;
+}
+.app .app-btn:hover {
+  background-color: #fff !important;
+  border: 1px solid #438a5e !important;
+}
+
+.app .app-btn:disabled {
+  background-color: #438a5e !important;
+  border: 1px solid #438a5e !important;
+}
